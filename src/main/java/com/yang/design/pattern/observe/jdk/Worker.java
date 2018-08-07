@@ -9,6 +9,6 @@ import java.util.Observer;
 public class Worker implements Observer {
     @Override
     public void update(Observable o, Object arg) {
-        System.out.println("工人接电话，找工作！！！");
+        System.out.println("工人接电话，找工作！！！" + (arg != null ? arg.toString() : ""));
     }
 }

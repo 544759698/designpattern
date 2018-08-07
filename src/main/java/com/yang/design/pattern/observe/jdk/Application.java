@@ -12,8 +12,8 @@ public class Application {
         jobSubject.addObserver(s1);
         jobSubject.addObserver(w1);
         jobSubject.setMsg("123");
-        jobSubject.notifyObservers();
+        jobSubject.notifyObservers("123");
         jobSubject.setMsg("1234");
-        jobSubject.notifyObservers();
+        jobSubject.notifyObservers("1234");
     }
 }
