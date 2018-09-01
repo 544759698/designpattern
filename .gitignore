@@ -34,3 +34,9 @@ Thumbs.db
 
 # review board config
 .reviewboardrc
+*.class
+*.war
+*.original
+*.jar
+target/maven-archiver/pom.properties
+*.lst
